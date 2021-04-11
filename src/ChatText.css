@@ -1,0 +1,118 @@
+.ChatText{
+    padding: 5% !important;
+    position: relative;
+    display: grid;
+    background-color: black;
+    height: 10% !important;
+    /* transform: scaleY(-1); */
+}
+
+.ChatText__User {
+    margin-top: 200px;
+    padding-bottom: 100px;
+    overflow: auto;
+    scroll-behavior: smooth;
+    justify-content: flex-end;
+    overflow-y: auto;
+    position: static;
+    /* display: table-cell;
+    vertical-align: bottom; */
+    /* transform: scaleY(-1);  */
+
+}
+
+.ChatText__message{
+    
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+    
+    /* flex-wrap: wrap; */
+    
+}
+
+.ChatText__username{
+    color: gray;
+    display: block;
+    margin-bottom: 8px;
+    /* flex-flow: column ; */
+}
+
+.ChatText_userMessage {
+    margin-right: auto;
+    padding: 12px;
+    border-radius: 20px;
+    color: white !important;
+    position: relative;
+    background-color: black;
+    /* color: rgb(22, 122, 253) !important; */
+    margin-bottom: 8px;
+    box-shadow: 0px 1px 5px 3px white;
+    max-width: 45%;
+}
+
+.ChatText__usernamemain {
+    color: gray;
+    display: block;
+    margin-left: auto;
+    margin-bottom: 8px;
+}
+
+.ChatText_userMessagemain {
+    
+    margin-left: auto;
+    padding: 12px;
+    border-radius: 20px;
+    color: white !important;
+    box-shadow: 0px 2px 10px 3px rgb(22, 122, 253);
+    color: black;
+    margin-bottom: 8px;
+    max-width: 45%;
+}
+
+.chatText__input {
+    bottom: 0;
+    position: fixed;
+    padding-bottom: 4vh;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    /* width: 100%; */
+    padding-right: 5%;
+    margin-right: 100px;
+}
+
+ .chatText__inputField {
+    border-radius: 20px;
+    outline: none;
+    padding: 15px;
+    flex: 1;
+    color: white;
+    box-shadow: 0px 1px 5px 3px white;
+
+    /* height: 5%; */
+}
+
+.chatText__inputField:focus {
+    /* background-color: white;
+    color: black; */
+    padding: 15px;
+    box-shadow: 0px 2px 10px 3px rgb(22, 122, 253);
+
+}
+
+.send__logo {
+    /* margin-right: auto; */
+    
+    margin-left: 10px;
+    height: 40px;
+    object-fit: contain;
+    cursor: pointer;
+    filter: brightness(120%);
+    filter: contrast(120%);
+    /* filter: drop-shadow(1px 5px 5px  white); */
+}
+
+.chatText__inputButton {
+    display: none;
+} 
